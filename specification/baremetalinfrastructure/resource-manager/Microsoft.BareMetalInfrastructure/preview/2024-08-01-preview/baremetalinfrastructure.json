@@ -83,14 +83,6 @@
           },
           {
             "$ref": "#/parameters/AzureBareMetalInstanceNameParameter"
-          },
-          {
-            "name": "Content-Type",
-            "in": "header",
-            "required": true,
-            "type": "string",
-            "default": "application/json",
-            "description": "The Content-Type header"
           }
         ],
         "responses": {
